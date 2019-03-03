@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="hr.kruno.viseaktivnosti.MainActivity">
+
+    <Button
+            android:text="@string/but_aktivnost_vraca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:onClick="pozoviAktivnostKojaVraca"/>
+    <TextView
+            android:text="@string/vracen_tekst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/labVracenTekst"
+            android:textSize="18sp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vracen"
+            android:textSize="24sp"/>
+    <Button
+            android:text="@string/but_aktivnost_nevraca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="pozoviAktivnost"
+            android:id="@+id/button3"/>
+</LinearLayout>

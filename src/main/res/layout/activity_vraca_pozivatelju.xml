@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_second"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="hr.kruno.viseaktivnosti.VracaPozivateljuActivity">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" android:id="@+id/ed"
+            android:hint="Unesite tekst koji se vraća pozivatelju"/>
+    <Button
+            android:text="Vrati uneseni tekst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="vratiNatrag"
+            android:id="@+id/button2"/>
+    <TextView
+            android:text="Dobiveni tekst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/labVracenTekst" android:textSize="18sp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/dobiven" android:textSize="24sp"/>
+</LinearLayout>
