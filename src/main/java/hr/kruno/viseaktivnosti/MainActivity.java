@@ -39,11 +39,12 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
 
         // Provjerava je li druga aktivnost uspješno završila
+        // Služi za identifikaciju određene aktivnosti
         if (requestCode == OK_CODE) {
             if (resultCode == RESULT_OK) {
                 // dohvaća podatke kojeje u poslani objekt tipa Intent dodala pozvana aktivnost
                 String povratna = data.getStringExtra("povratnaPoruka");
-                TextView vracen = (TextView) findViewById(R.id.vracen);
+                TextView vracen = findViewById(R.id.vracen);
                 vracen.setText(povratna);
             }
         }

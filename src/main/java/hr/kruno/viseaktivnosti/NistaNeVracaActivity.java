@@ -16,7 +16,7 @@ public class NistaNeVracaActivity extends AppCompatActivity {
         Intent intent = getIntent();
         // Parametar je niz znakova
         String poruka = intent.getStringExtra("poruka");
-        TextView tv = (TextView)findViewById(R.id.tv);
+        TextView tv = findViewById(R.id.tv);
         tv.setText(poruka);
     }
 }

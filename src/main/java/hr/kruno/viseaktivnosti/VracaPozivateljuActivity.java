@@ -23,7 +23,7 @@ public class VracaPozivateljuActivity extends AppCompatActivity {
 
     public void vratiNatrag(View v){
         // Pozvat će aktivnost koja je upravljana klasom NistaneVraca
-        EditText ed = (EditText)findViewById(R.id.ed);
+        EditText ed = findViewById(R.id.ed);
         // Pozivatelju se povratna vrijednost vraća unutar parametara onog intenta
         //   koji je pozivateljj poslao ovoj aktivnosti (nadopunjavaju se parametri).
         i.putExtra("povratnaPoruka", ed.getText().toString());
