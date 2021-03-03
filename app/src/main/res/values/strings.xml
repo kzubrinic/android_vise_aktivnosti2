@@ -3,4 +3,5 @@
     <string name="but_aktivnost_vraca">Aktivnost koja vraća vrijednost</string>
     <string name="but_aktivnost_nevraca">Aktivnost koja ništa ne vraća</string>
     <string name="vracen_tekst">Vraćen je sljedeći tekst:</string>
+    <string name="but_aktivnost_vraca2">Druga aktivnost koja vraća vrijednost</string>
 </resources>

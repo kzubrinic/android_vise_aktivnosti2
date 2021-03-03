@@ -26,6 +26,18 @@
             android:id="@+id/vracen"
             android:textSize="24sp"/>
     <Button
+        android:text="@string/but_aktivnost_vraca2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/druga_button"
+        android:onClick="pozoviAktivnostKojaVracaDruga"/>
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vracenDrugi"
+        android:textSize="18sp"/>
+    <Button
             android:text="@string/but_aktivnost_nevraca"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
